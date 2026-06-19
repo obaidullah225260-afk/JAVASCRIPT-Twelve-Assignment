@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    min-width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#player1{
+    position: absolute;
+    left: 50px;
+    bottom: 0%;
+    width: 130px;
+}
+#player2{
+    position: absolute;
+    right: 50px;
+    bottom: 0%;
+    width: 200px;
+    height: 250px;
+    transform: scaleX(-1);
+}
